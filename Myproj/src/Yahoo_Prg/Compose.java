@@ -36,6 +36,7 @@ public class Compose extends MainClass
 			 driver.findElement(By.id(ComposeP.ibody)).sendKeys("This is sample message in the body");
 			 driver.findElement(By.xpath(ComposeP.xsend)).click();
 			 Thread.sleep(5000);
+			 System.out.println("hello");
 		 }
 	 }
 	 catch(Exception e)
